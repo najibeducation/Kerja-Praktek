@@ -1,0 +1,10 @@
+<resources>
+    <!-- Main String -->
+    <string name="app_name">Sales Semarang</string>
+    <!-- activity_main.xml -->
+    <string name="login">Masuk Sebagai:</string>
+    <string name="logo">Logo</string>
+    <string name="masuk">Masuk</string>
+    <string name="nama">Masukan Nama Anda</string>
+
+</resources>
