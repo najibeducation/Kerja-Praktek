@@ -15,8 +15,13 @@ class MainActivity : AppCompatActivity() {
         val login = findViewById<ImageButton>(R.id.loginButton)
 
         login.setOnClickListener {
-            val name = userName.text.toString()
-            Toast.makeText(applicationContext, "Selamat Datang $name", Toast.LENGTH_SHORT).show()
+            val name = userName.text.toString().trim()
+            if (name.isNotEmpty()){
+                Toast.makeText(applicationContext, "Selamat Datang $name", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Form harus diisi!", Toast.LENGTH_SHORT).show()
+            }
+
         }
     }
 }
