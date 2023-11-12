@@ -6,5 +6,10 @@
     <string name="logo">Logo</string>
     <string name="masuk">Masuk</string>
     <string name="nama">Masukan Nama Anda</string>
+    <!-- activity_dasboard.xml -->
+    <string name="bt_penjualan">Button Penjualan</string>
+    <string name="bt_riwayat">Button Riwayat</string>
+    <string name="bt_konsumen">Button Konsumen</string>
+    <string name="calendar">Tanggal Hari Ini</string>
 
 </resources>
