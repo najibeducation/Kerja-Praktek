@@ -18,12 +18,13 @@
       android:textColor="@color/white"
       android:paddingBottom="10dp"
       android:background="@drawable/sub_background"
-      android:layout_marginTop="30dp"
+      android:layout_marginTop="10dp"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toTopOf="parent"/>
 
   <LinearLayout
+      android:id="@+id/form_layout"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="10dp"
@@ -53,7 +54,8 @@
         android:hint="@string/labelToko"
         android:inputType="text"
         android:textColorHint="#757575"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:padding="17sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,7 +74,8 @@
         android:hint="@string/labelTitip"
         android:inputType="number"
         android:textColorHint="#757575"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:padding="17sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,7 +94,8 @@
         android:hint="@string/labelRetur"
         android:inputType="number"
         android:textColorHint="#757575"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:padding="17sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -110,7 +114,64 @@
         android:hint="@string/labelHarga"
         android:inputType="number"
         android:textColorHint="#757575"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:padding="17sp"/>
+
+  </LinearLayout>
+  <ImageButton
+      android:id="@+id/button_save"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:src="@drawable/button_save"
+      android:background="@drawable/rounded_button"
+      android:elevation="10dp"
+      android:layout_marginEnd="30dp"
+      app:layout_constraintTop_toBottomOf="@+id/form_layout"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/terjual_layout"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:contentDescription="@string/save" />
+
+  <LinearLayout
+      android:id="@+id/terjual_layout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toBottomOf="@+id/form_layout"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/button_save"
+      app:layout_constraintBottom_toBottomOf="parent"
+      android:layout_marginStart="30dp"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terjual"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/hijau"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_background"
+        android:text="@string/pcs"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_background"
+        android:text="@string/rp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"/>
 
   </LinearLayout>
 

@@ -1,5 +1,6 @@
 package com.usm.kejrapraktek
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -24,7 +25,8 @@ class Dasboard : AppCompatActivity() {
         textViewDate.text = formattedDate
 
         penjualan.setOnClickListener {
-
+            val intent = Intent(this, Penjualan::class.java)
+            startActivity(intent)
         }
 
         riwayat.setOnClickListener {

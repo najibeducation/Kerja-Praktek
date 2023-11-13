@@ -8,5 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="hijau">#00A651</color>
-    <color name="tranparent">#00FFFFFF</color>
+    <color name="sistemui">#80000000</color>
 </resources>

@@ -17,12 +17,16 @@
     <!-- activity_penjualan.xml -->
     <string name="penjualan">PENJUALAN</string>
     <string name="toko">Nama Toko</string>
-    <string name="labelToko">Formulir Untuk Nama Toko</string>
+    <string name="labelToko">Form Nama Toko</string>
     <string name="titip">Jumlah Titip</string>
-    <string name="labelTitip">Formulir Untuk Jumlah Titip</string>
+    <string name="labelTitip">Form Jumlah Titip</string>
     <string name="retur">Retur</string>
-    <string name="labelRetur">Formulir Untuk Jumlah Retur</string>
+    <string name="labelRetur">Form Jumlah Retur</string>
     <string name="harga">Harga</string>
-    <string name="labelHarga">Formulir Untuk Harga</string>
+    <string name="labelHarga">Form Harga</string>
+    <string name="terjual">TERJUAL</string>
+    <string name="pcs">PCS</string>
+    <string name="rp">RUPIAH</string>
+    <string name="save">Tombol Simpan</string>
 
 </resources>
