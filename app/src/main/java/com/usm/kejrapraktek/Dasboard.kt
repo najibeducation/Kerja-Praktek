@@ -30,7 +30,8 @@ class Dasboard : AppCompatActivity() {
         }
 
         riwayat.setOnClickListener {
-
+            val intent = Intent(this, Riwayat::class.java)
+            startActivity(intent)
         }
 
         konsumen.setOnClickListener {

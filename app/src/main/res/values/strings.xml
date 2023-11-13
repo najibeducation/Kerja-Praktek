@@ -29,4 +29,9 @@
     <string name="rp">RUPIAH</string>
     <string name="save">Tombol Simpan</string>
 
+    <!-- activity_riwayat.xml -->
+    <string name="riwayat">RIWAYAT</string>
+    <string name="tgl">Tanggal</string>
+    <string name="review">Hasil Pencarian</string>
+
 </resources>
