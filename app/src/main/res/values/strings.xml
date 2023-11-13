@@ -1,15 +1,28 @@
 <resources>
     <!-- Main String -->
     <string name="app_name">Sales Semarang</string>
+
     <!-- activity_main.xml -->
     <string name="login">Masuk Sebagai:</string>
     <string name="logo">Logo</string>
     <string name="masuk">Masuk</string>
     <string name="nama">Masukan Nama Anda</string>
+
     <!-- activity_dasboard.xml -->
     <string name="bt_penjualan">Button Penjualan</string>
     <string name="bt_riwayat">Button Riwayat</string>
     <string name="bt_konsumen">Button Konsumen</string>
     <string name="calendar">Tanggal Hari Ini</string>
+
+    <!-- activity_penjualan.xml -->
+    <string name="penjualan">PENJUALAN</string>
+    <string name="toko">Nama Toko</string>
+    <string name="labelToko">Formulir Untuk Nama Toko</string>
+    <string name="titip">Jumlah Titip</string>
+    <string name="labelTitip">Formulir Untuk Jumlah Titip</string>
+    <string name="retur">Retur</string>
+    <string name="labelRetur">Formulir Untuk Jumlah Retur</string>
+    <string name="harga">Harga</string>
+    <string name="labelHarga">Formulir Untuk Harga</string>
 
 </resources>
